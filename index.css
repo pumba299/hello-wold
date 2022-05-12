@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color-accent: #7bb57c;
+    --color-main: #333;
+
+}
+
+/*spring collection block*/
+
+.springcollection__2020 {
+    display: block;
+    color: var(--color-accent);
+}
+
+.springcollection__header-h2 {
+    font-size: 58px;
+    font-weight: 700;
+    width: 100%;
+    line-height: 63.8px;
+    overflow-wrap: break-word;
+    letter-spacing: 0;
+}
+
+.collection2020 {
+    font-family: 'Poppins', sans-serif;
+    max-width: 1200px;
+    padding: 0 24px;
+    color: var(--color-main);
+}
+
+.springcollection__content {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 100%;
+}
+
+.springcollection__subheader-p {
+    margin-top: 35px;
+}
+
+.springcollection__button {
+    margin-top: 35px;
+    display: flex;
+    width: 154.175px;
+    height: 52px;
+    background-color: var(--color-accent);
+    text-align: center;
+    justify-content: center;
+}
+}
+
+.collection__faves-link {
+    display: block;
+    /* display: flex;
+    width: 154.175px;
+    height: 52px;
+    background-color: var(--color-accent);
+    text-align: center;
+    justify-content: center; */
+}
+
+.springcollection {
+    background-image: url(img/spring-collection-background.jpg);
+    background-size: cover;
+    padding: 170px 0 180px;
+    background-position: 40.63% 51.66%;
+    background-attachment: fixed;
+}
