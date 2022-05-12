@@ -6,6 +6,8 @@
 :root {
     --color-accent: #7bb57c;
     --color-main: #333;
+    --color-light: #fff;
+
 
 }
 
@@ -44,22 +46,15 @@
 
 .springcollection__button {
     margin-top: 35px;
-    display: flex;
     width: 154.175px;
     height: 52px;
     background-color: var(--color-accent);
-    text-align: center;
-    justify-content: center;
+   
 }
 
 .collection__faves-link {
     display: block;
-    /* display: flex;
-    width: 154.175px;
-    height: 52px;
-    background-color: var(--color-accent);
-    text-align: center;
-    justify-content: center; */
+    
 }
 
 .springcollection {
